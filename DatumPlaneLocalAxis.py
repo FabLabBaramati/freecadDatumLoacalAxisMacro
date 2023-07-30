@@ -12,7 +12,7 @@ def add_local_axes():
     if doc:
         for obj in doc.Objects:
             if obj.isDerivedFrom("App::DocumentObjectGroup"):
-                if obj.Label == "Datum_Plane_Axes":
+                if obj.Label == "Datum_Plane_Axis":
                     # Delete the child objects
                     for child_obj in obj.Group:
                         doc.removeObject(child_obj.Name)
@@ -32,7 +32,7 @@ def add_local_axes():
             # Create small axis representations
             size =50.0  # Size of the axis representations
 
-            # Create Draft objects for the axes
+            # Create Draft objects for the axis
             x_axis = Draft.makeLine(App.Vector(0, 0, 0), App.Vector(size, 0, 0))
             y_axis = Draft.makeLine(App.Vector(0, 0, 0), App.Vector(0, size, 0))
             z_axis = Draft.makeLine(App.Vector(0, 0, 0), App.Vector(0, 0, size))
