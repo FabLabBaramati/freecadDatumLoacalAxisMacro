@@ -6,7 +6,7 @@ This macro is designed for the FreeCAD and adds small X, Y, and Z axis represent
 
 1. Ensure you have the freecad 020.2 or LinkStage branch of FreeCAD installed on your system.
 2. Open FreeCAD and create or open a document that contains a datum plane.
-3. In the 3D view select the datum plane you want to add the local coordinate axes to.
+3. In the 3D view select the datum plane you want to add the local coordinate axis to.
 4. Go to the Macros menu in the FreeCAD GUI and choose "Macro...".
 5. Click on the "New" button to create a new macro.
 6. Replace the default macro code with the code provided in this repository's macro file.
