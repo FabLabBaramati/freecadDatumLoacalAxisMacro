@@ -1,3 +1,25 @@
+__Name__ = 'DatumPlaneLocalAxis'
+__Comment__ = 'select datum plane in 3d view then run macro ,this macro will shows local axis to datum , agin run macro will clear axis reprentaion'
+__Author__ = 'Avinash Pudale'
+__Date__ = '8/7/2023'
+__Version__ = 'v0.1'
+__License__ = 'LGPL-2.0-or-later'
+__Web__ = 'https://forum.freecad.org/viewtopic.php?t=79562'
+__Wiki__ = ''
+__Icon__ = 'https://github.com/FabLabBaramati/freecadDatumLoacalAxisMacro/blob/main/Std_DatumPlanelocalaxis.svg'
+__Xpm__ = ''
+__Help__ = 'the macro will add small X, Y, and Z axis representations on the selected datum plane in the 3D view. The X-axis is represented in red, the Y-axis in green, and the Z-axis in blue.To clear the axis representations, simply click on the macro again, and the representations will be removed.'
+__Status__ = 'Stable'
+__Requires__ = 'FreeCAD >=0.20'
+__Communication__ = 'https://github.com/FabLabBaramati/freecadDatumLoacalAxisMacro/issues'
+__Files__ = ''
+
+
+
+
+
+
+
 import FreeCAD as App
 import FreeCADGui as Gui
 from PySide import QtGui
