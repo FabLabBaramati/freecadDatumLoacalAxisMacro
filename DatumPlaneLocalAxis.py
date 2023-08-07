@@ -25,7 +25,7 @@ from PySide import QtGui
 import Part
 import Draft
 
-def add_local_axes():
+def add_local_axis():
     # Get the active document
     doc = App.ActiveDocument
 
@@ -86,4 +86,4 @@ def add_local_axes():
             Gui.SendMsgToActiveView("ViewFit")
 
 # Call the function to add or clear local axis representations
-add_local_axes()
+add_local_axis()
