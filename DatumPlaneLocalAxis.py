@@ -1,9 +1,13 @@
+# -*- coding: utf-8 -*-
+# view loacal axis of selected datum plane macro
+# Author: Avinash Pudale
+# License: LGPL v 2.1
 __Name__ = 'DatumPlaneLocalAxis'
 __Comment__ = 'select datum plane in 3d view then run macro ,this macro will shows local axis to datum , agin run macro will clear axis reprentaion'
 __Author__ = 'Avinash Pudale'
 __Date__ = '8/7/2023'
 __Version__ = 'v0.1'
-__License__ = 'LGPL-2.0-or-later FreeCAD '
+__License__ = 'LGPL-2.1'
 __Web__ = 'https://forum.freecad.org/viewtopic.php?t=79562'
 __Wiki__ = ''
 __Icon__ = 'https://github.com/FabLabBaramati/freecadDatumLoacalAxisMacro/blob/main/Std_DatumPlanelocalaxis.svg'
@@ -12,12 +16,7 @@ __Help__ = 'the macro will add small X, Y, and Z axis representations on the sel
 __Status__ = 'Stable'
 __Requires__ = 'FreeCAD >=0.20'
 __Communication__ = 'https://github.com/FabLabBaramati/freecadDatumLoacalAxisMacro/issues'
-__Files__ = ''
-
-
-
-
-
+__Files__ = 'Std_DatumPlanelocalaxis.svg'
 
 
 import FreeCAD as App
