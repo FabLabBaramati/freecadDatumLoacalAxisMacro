@@ -48,7 +48,7 @@ def add_local_axes():
             placement = datum_plane.Placement
 
             # Create a folder to group the axis representations
-            folder = doc.addObject("App::DocumentObjectGroup", "Datum_Plane_Axes")
+            folder = doc.addObject("App::DocumentObjectGroup", "Datum_Plane_Axis")
 
             # Create small axis representations
             size =50.0  # Size of the axis representations
